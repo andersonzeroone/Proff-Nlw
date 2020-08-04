@@ -1,68 +1,15 @@
+import  ConnectionsController from './controllers/ConnectionsController';
 import express from 'express';
-import db from './database/connections';
-import convertHourToMinute from './utils/converthourTominutes';
+import ClassesController from './controllers/ClassesControllers';
 
 const routes = express.Router();
+const classesController = new ClassesController();
+const connectonsController = new ConnectionsController();
 
-interface ScheduleItem {
-    week_day: number;
-    from: string;
-    to: string;
-}
-routes.post('/classes', async(req, res)=>{
-    const {
-        name,
-        avatar,
-        whatsapp,
-        bio,
-        subject,
-        cost,
-        schedule
-    } = req.body;
+routes.get('/classes',classesController.index);
+routes.post('/classes',classesController.create);
 
-    const trx = await db.transaction();
-   
-    try{
-        const insertUsersIds = await trx('users').insert({
-            name,
-            avatar,
-            whatsapp,
-            bio,    
-        })
-    
-        const user_id = insertUsersIds[0];
-        
-        const insertClassesIds = await trx('classes').insert({
-            subject,
-            cost,
-            user_id
-        });
-    
-        const class_id = insertClassesIds[0];
-    
-        const classSchedule = schedule.map((scheduleItem: ScheduleItem)=>{
-            return {
-                class_id,
-                week_day: scheduleItem.week_day,
-                from: convertHourToMinute(scheduleItem.from),
-                to: convertHourToMinute(scheduleItem.to)
-            };
-        })
-    
-        await trx('class_schedule').insert(classSchedule);
-    
-        await trx.commit();
-        
-        return res.status(201).send(); 
-
-    }catch(err){
-
-        await trx.rollback();
-
-        return res.status(400).json({
-            error:'Unexpected error while creating new class'
-        })
-    }
-})
+routes.get('/connections',connectonsController.index);
+routes.post('/connections',connectonsController.create);
 
 export default routes;
