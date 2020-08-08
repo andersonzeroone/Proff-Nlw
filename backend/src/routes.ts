@@ -12,4 +12,4 @@ routes.post('/classes',classesController.create);
 routes.get('/connections',connectonsController.index);
 routes.post('/connections',connectonsController.create);
 
-export default routes;
+export default routes;  
