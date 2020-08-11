@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
     },
     label:{
         color:'#d4c2ff',
-        fontFamily: 'Poppins_400Regular'
+        fontFamily: 'Poppins_400Regular',
+        fontSize:16
     },
     inputGroup:{
         flexDirection:'row',
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
         width:'48%'
     },
     input:{
-        height:54,
+        height:40,
         backgroundColor:"#FFF",
         borderRadius: 8,
         justifyContent:'center',

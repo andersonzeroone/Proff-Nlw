@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     },
 
     button: {
-        height: 150,
+        height: 180,
         width: '48%',
         backgroundColor: '#333',
         borderRadius: 8,
@@ -55,8 +55,8 @@ const styles = StyleSheet.create({
     },
     totalConnections: {
         fontFamily: 'Poppins_400Regular',
-        color: '#d4c2ff',
-        fontSize: 12,
+        color: '#d4c2ff', 
+        fontSize: 16,
         lineHeight: 20,
         maxWidth: 160,
         marginTop: 40,

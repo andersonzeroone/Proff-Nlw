@@ -26,12 +26,12 @@ const styles = StyleSheet.create({
     name:{
         fontFamily:'Archivo_700Bold',
         color:'#32264d',
-        fontSize:20
+        fontSize:16
     },
     subject:{
          fontFamily:'Poppins_400Regular',
          color:'#6a6180',
-         fontSize:12,
+         fontSize:14,
          marginTop:4   
     },
     bio:{

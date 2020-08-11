@@ -10,6 +10,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#8257E5",
       "flex":1
+      
     },
     "updates": {
       "fallbackToCacheTimeout": 0
