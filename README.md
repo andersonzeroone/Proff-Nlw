@@ -176,7 +176,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React Navigation](https://reactnavigation.org/)**
 -   **[Axios](https://github.com/axios/axios)**
 
-> Veja o arquivo  [package.json](https://github.com/andersonzeroone/beTheHero-OmniStack11/blob/main/mobile/package.json)
+> Veja o arquivo  [package.json](https://github.com/andersonzeroone/Proff-Nlw/blob/master/mobile/package.json)
 
 
 **Utilitários**
