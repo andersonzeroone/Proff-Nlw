@@ -22,9 +22,9 @@
 
 ## Sobre o projeto
 
-<p align="left">Em meio a pandemia muitas áreas sofrem mudanças extrema e a educação foi uma delas que mais sofrem mudanças como a forma de realizar as aulas e o contato com professores. O sistema Proffy, permite você encontrar diversos professores on-line, que oferecem aulas particulares e com horários flexíveis servindo como um reformo em meio a pandemia.
+<p align="left">Em meio a pandemia muitas áreas sofreram mudanças extremas e a educação foi uma delas que mais sofreu mudanças como a forma de realizar as aulas e o contato com professores. O sistema Proffy, permite você encontrar diversos professores on-line, que oferecem aulas particulares e com horários flexíveis servindo como um reforço em meio a pandemia.
 
-Projeto desenvolvido durante a semana Next Level Week - NLW oferecida pela  [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).. O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Projeto desenvolvido durante a semana Next Level Week - NLW oferecida pela  [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/). O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 </p>
 
 <br/>
@@ -37,15 +37,15 @@ Projeto desenvolvido durante a semana Next Level Week - NLW oferecida pela  [Roc
   -  Dia da Semana;
   -  Horário.
 - [x] Listar professores.
-- [x] Exibi informações sobre professor.
+- [x] Exibe informações sobre o professor.
 ---
 
 ## Layout
 Você pode acessar os Layout pelo Figma: 
 
-Mobile: <a href="https://www.figma.com/file/3IYU7c1WocWs5Am74ds10U/Proffy_Mobile?node-id=45%3A640">desse link</a>.
+Mobile: <a href="https://www.figma.com/file/3IYU7c1WocWs5Am74ds10U/Proffy_Mobile?node-id=45%3A640"> neste link</a>.
 
-Web: <a href="https://www.figma.com/file/7vDXSL28sXSTG8ybdIkIJH/Proffy_Web?node-id=0%3A1">desse link</a>.
+Web: <a href="https://www.figma.com/file/7vDXSL28sXSTG8ybdIkIJH/Proffy_Web?node-id=0%3A1"> neste link</a>.
 
 <br/>
 <h1>Versão Mobile</h1>
@@ -67,12 +67,12 @@ Este projeto é divido em três partes:
 2. Frontend (pasta web)
 3. Mobile (pasta mobile)
 
-anto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
+Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com) é um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 🎲Clonando o projeto
 
@@ -99,7 +99,7 @@ $ npm install ou yarn install
 # Execute a aplicação
 $ npm start ou  yarn start 
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor iniciará na porta:3333 - acesse http://localhost:3333 
 
 ```
 <!-- <p align="center">
@@ -221,7 +221,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto está sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Anderson Pablo 👋🏽 [Entre em contato!](https://www.linkedin.com/in/anderson-pablo-js/)
 
